@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROOP TECH</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: black;
+    height: 100vh;
+}
+
+header {
+    background-color: black;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; 
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00ffff;
+    margin-right: 20px; 
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-left: 20px; 
+}
+
+.search-bar input {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-bar button {
+    margin-left: 10px;
+    padding: 6px 12px;
+    background-color: #00ffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 80px); 
+    padding: 20px; 
+    
+}
+
+.hero h1 {
+    font-size: 48px; 
+    margin-bottom: 30px; 
+    line-height: 1.5; 
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login {
+    background-color: red;
+    color: white;
+}
+
+.signup {
+    background-color: green;
+    color: white;
+}
+
+footer {
+    background-color: red;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">ROOPTECH</div>
+            <ul class="nav-links">
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="productS.html">PRODUCTS</a></li>
+                <li><a href="people.html">PEOPLE</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <div class="search-bar">
+                <input type="text" placeholder="Enter to Search">
+                <button>Search</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="hero">
+            <h1>"Driving progress through <br> precision engineering <br>and boundless creativity."</h1>
+            <div class="buttons">
+                <button class="login">Log In</button>
+                <button class="signup">Sign Up</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>DESIGNED AND DEVELOPED BY NITHISH KUMAR P (212221040115) </p>
+    </footer>
+</body>
+</html>
